@@ -1,0 +1,185 @@
+body{
+    background-color: black;
+}
+
+.cv{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.whiteSide{
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 40px;
+    background-color: white
+}
+
+.expPro{
+display: flex;
+}
+
+.dateExp{
+    width: 18%;
+    font-style: italic;
+    color: grey;
+    font-size: small;
+    line-height: 0.8 ;
+}
+
+.company{
+width: 80%;
+display: flex;
+justify-content: space-between;
+position: relative;
+/* line-height: 0; */
+padding: 15px;
+}
+
+.company::before{
+    content: "";
+    position: absolute;
+    left: 100px;
+    background-color: #82BE00;
+}
+
+.companyName{
+    margin: 0;
+}
+
+.logoCompany{
+    width: 80px;
+}
+
+.poste{
+color: grey;
+}
+
+.timeline{
+    position: relative;
+    width: 100%;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 1.5px;
+    background-color: #82BE00;
+    top: 0;
+    bottom: 0;
+}
+
+.containerCompany::after{
+    content:'';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #82BE00;
+    top: 20px;
+}
+
+.formations{
+    display: flex;
+    flex-direction: column;
+}
+
+.formation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formationDate{
+    line-height: 0.3;
+    font-style: italic;
+    color: grey;
+}
+
+.formationGrade{
+    padding-right: 60px;
+    line-height: 0.3;
+}
+
+.formationSchool{
+    font-style: italic;
+    font-size: small;
+}
+
+.langue{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.endPageLogo{
+padding-left: 88%;
+filter:opacity(50%);
+}
+
+.blueSide{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: auto;
+    background-color: #1E173C;
+    color: white;
+}
+
+.fiche{
+ padding: 40px;
+}
+
+
+.profilPicture{
+    display: block;
+    margin: auto;
+    height: 300px;
+    position: relative;
+    right: 52px;
+}
+
+.title{
+    text-decoration: underline;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactMail,.contactTel,.contactLocalisation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContact{
+    width: 30px ;
+    height: 30px;
+}
+
+span:last-child{
+    color:#82BE00;
+}
+
+.langage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.langageName{
+    display: flex;
+}
+
+.langageRank{
+    padding-top: 15px;
+}
+
+.logoLangage{
+    height: 40px;
+}
+
+.name>p{
+    color: #1e173c;
+}
+
+
