@@ -2,6 +2,13 @@ body{
     background-color: black;
 }
 
+.downloadCv{
+    position: absolute;
+    top: 55px;
+    right: 680px;
+    width: 35px;
+}
+
 .cv{
     display: flex;
     width: 70%;
@@ -133,9 +140,9 @@ filter:opacity(50%);
 .profilPicture{
     display: block;
     margin: auto;
-    height: 300px;
+    height: 400px;
     position: relative;
-    right: 52px;
+    margin: -40px;
 }
 
 .title{
@@ -183,3 +190,39 @@ span:last-child{
 }
 
 
+@media screen and (max-width: 768px){
+    
+    .cv{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .whiteSide{
+        width: 100%;
+    }
+
+    .endPageLogo{
+        padding-left: 75%;
+        }
+
+    .blueSide{
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    .profilPicture{
+        position: relative;
+        left: px;
+    }
+
+    .downloadCv{
+        top: 55px;
+        right: 0px;
+    }
+}
+@media screen and (min-width:769)and (max-width: 992px) {
+    .profilPicture{
+        position: relative;
+        margin: 0px
+    }
+}
