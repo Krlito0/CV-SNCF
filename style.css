@@ -159,6 +159,10 @@ filter:opacity(50%);
     justify-content: space-between;
 }
 
+.contactMail{
+    align-items: center;
+}
+
 .logoContact{
     width: 30px ;
     height: 30px;
