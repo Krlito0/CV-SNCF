@@ -22,6 +22,10 @@ body{
     background-color: white
 }
 
+.introduceMe {
+    width: 95%;
+}
+
 .expPro{
 display: flex;
 }
