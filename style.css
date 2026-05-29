@@ -43,7 +43,6 @@ width: 80%;
 display: flex;
 justify-content: space-between;
 position: relative;
-/* line-height: 0; */
 padding: 15px;
 }
 
@@ -92,7 +91,6 @@ color: grey;
 .appName{
     font-weight: bold;
     font-style: italic;
-    margin-left: 20px;
 }
 
 .timeline{
@@ -201,7 +199,7 @@ filter:opacity(50%);
     height: 30px;
 }
 
-span:last-child{
+.green{
     color:#82BE00;
 }
 
